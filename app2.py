@@ -152,4 +152,4 @@ while True:
     time.sleep(2)
 
 # Agregar tu nombre en la parte inferior del sidebar
-st.sidebar.markdown("<br><br><br><br><br><br><b>Javier Horacio Pérez Ricárdez</b>", unsafe_allow_html=True)
+st.sidebar.markdown("### Desarrollado por **Javier Horacio Pérez Ricárdez**")
