@@ -14,6 +14,10 @@ import time
 from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 
+
+# Configuración de la página
+st.set_page_config(page_title="Tablero Multiusuario", layout="wide")
+
 # Estilo de fondo
 page_bg_img = """
 <style>
@@ -30,11 +34,6 @@ background-size:16px 16px;
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
-
-
-
-# Configuración de la página
-st.set_page_config(page_title="Tablero Multiusuario", layout="wide")
 
 # Función para generar datos dinámicos para cada usuario
 def generate_user_data(role):
