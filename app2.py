@@ -14,7 +14,6 @@ import time
 from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 
-
 # Configuración de la página
 st.set_page_config(page_title="Tablero Multiusuario", layout="wide")
 
@@ -33,7 +32,6 @@ background-size:16px 16px;
 """
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
-
 
 # Función para generar datos dinámicos para cada usuario
 def generate_user_data(role):
@@ -91,7 +89,7 @@ model_type = st.sidebar.selectbox("Selecciona el Modelo de Predicción", ["Linea
 
 # Agregar la sección de ayuda en el sidebar
 st.sidebar.markdown("### 🛠️ Ayuda")
-st.sidebar.markdown("""
+st.sidebar.markdown(""" 
     Este tablero muestra indicadores clave para diferentes roles, como Director y Analista, con proyecciones de los próximos valores.
     
     ### Funcionalidad:
@@ -105,9 +103,6 @@ st.sidebar.markdown("""
     
     ### Visualizaciones:
     - Los datos dinámicos son mostrados en un gráfico de barras, mostrando los indicadores actuales y las proyecciones futuras.
-
-    
-    
 """)
 
 # Contenedores para mantener actualizaciones en el mismo lugar
@@ -157,7 +152,4 @@ while True:
     time.sleep(2)
 
 # Agregar tu nombre en la parte inferior del sidebar
-st.markdown("© Copyrith")
-st.markdown("Desarrollado por **Javier Horacio Pérez Ricárdez**")
-
-
+st.sidebar.markdown("<br><br><br><br><br><br><b>Javier Horacio Pérez Ricárdez</b>", unsafe_allow_html=True)
