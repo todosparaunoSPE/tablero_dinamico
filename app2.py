@@ -105,8 +105,8 @@ st.sidebar.markdown("""
     - Los datos dinámicos son mostrados en un gráfico de barras, mostrando los indicadores actuales y las proyecciones futuras.
 
     # En el sidebar de Streamlit con el símbolo de derechos de autor
-    © Copyrith"
-    Desarrollado por Javier Horacio Pérez Ricárdez
+    ### © Copyrith
+    ### Desarrollado por Javier Horacio Pérez Ricárdez
     
 """)
 
