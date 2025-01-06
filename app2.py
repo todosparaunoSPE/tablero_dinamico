@@ -105,6 +105,10 @@ st.sidebar.markdown("""
     
     ### Visualizaciones:
     - Los datos dinámicos son mostrados en un gráfico de barras, mostrando los indicadores actuales y las proyecciones futuras.
+
+    # Agregar tu nombre en la parte inferior del sidebar
+    st.sidebar.markdown("<br><br><br><br><br><br><b>Javier Horacio Pérez Ricárdez</b>", unsafe_allow_html=True)
+    
 """)
 
 # Contenedores para mantener actualizaciones en el mismo lugar
@@ -155,5 +159,4 @@ while True:
 
 
 
-# Agregar tu nombre en la parte inferior del sidebar
-st.sidebar.markdown("<br><br><br><br><br><br><b>Javier Horacio Pérez Ricárdez</b>", unsafe_allow_html=True)
+
