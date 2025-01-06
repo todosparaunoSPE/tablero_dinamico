@@ -152,3 +152,8 @@ while True:
         st.plotly_chart(fig, use_container_width=True, key=f"bar_chart_{selected_role}_{time.time()}")
 
     time.sleep(2)
+
+
+
+# Agregar tu nombre en la parte inferior del sidebar
+st.sidebar.markdown("<br><br><br><br><br><br><b>Javier Horacio Pérez Ricárdez</b>", unsafe_allow_html=True)
