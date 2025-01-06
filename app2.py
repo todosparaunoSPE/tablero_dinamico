@@ -107,7 +107,8 @@ st.sidebar.markdown("""
     - Los datos dinámicos son mostrados en un gráfico de barras, mostrando los indicadores actuales y las proyecciones futuras.
 
     # Agregar tu nombre en la parte inferior del sidebar
-    st.sidebar.markdown("Creado por: Javier Horacio Pérez Ricárdez", unsafe_allow_html=True)
+    st.markdown("## © Copyrith")
+    st.markdown("Desarrollado por **Javier Horacio Pérez Ricárdez**")
     
 """)
 
