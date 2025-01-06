@@ -151,5 +151,7 @@ while True:
 
     time.sleep(2)
 
-# Agregar tu nombre en la parte inferior del sidebar
-st.sidebar.markdown("### Desarrollado por **Javier Horacio Pérez Ricárdez**")
+# En el sidebar de Streamlit con el símbolo de derechos de autor
+with st.sidebar:
+    st.markdown("## © Copyrith")
+    st.markdown("Desarrollado por **Javier Horacio Pérez Ricárdez**")
