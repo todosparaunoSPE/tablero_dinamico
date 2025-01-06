@@ -106,7 +106,8 @@ st.sidebar.markdown("""
 
     # En el sidebar de Streamlit con el símbolo de derechos de autor
     ### © Copyrith
-    ### Desarrollado por Javier Horacio Pérez Ricárdez
+    ### Desarrollado por:
+    ### Javier Horacio Pérez Ricárdez
     
 """)
 
